@@ -1,4 +1,78 @@
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    margin-top: 10px;
+    float: right;
+}
+
+ul img {
+    width: 5%;
+    margin: 10px 2%;
+}
+
+li .btn {
+    margin-top: 6px;
+    margin-right: 20px;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* 
+** fin navbar
+*/
+
+#top {
+    background-color: lightgray;
+}
+
+#top p {
+    margin-bottom: 40px;
+}
+#top .header {
+   margin-top: 12%;
+}
+
+#top .header img {
+    height: 40px;
+}
+
+#top .header .logodw {
+    margin-right:15px;
+
+}
+
+#iphonetop img {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    padding: 1em;
+    
+    
+
+}
+
+
+
 .features{
     background-color: lightgray;
 }
