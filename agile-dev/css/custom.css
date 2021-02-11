@@ -142,6 +142,8 @@ input[type=text], select, textarea {
 
 
 
+
+
 #sect2{
   background-color: white;
   text-align: left;
@@ -161,7 +163,7 @@ input[type=text], select, textarea {
       padding-bottom: 30px;
   }
 
-  img{
+  #sect2 img{
       width: 100%;
       height: 100%;
   }
@@ -175,3 +177,26 @@ input[type=text], select, textarea {
   margin-top: 15px;
 
 }
+#sect2bis{
+  background-color: white;
+  text-align: right;
+  padding-top: 30px;
+  }
+
+#sect2bis .container{
+  
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+#sect2bis .btn{
+  margin-top: 15px;
+
+}
+#sect2bis img{
+  width: 70%;
+  height: 70%;
+}
+
