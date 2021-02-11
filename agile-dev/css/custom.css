@@ -122,6 +122,7 @@ h2{
   }
 
 #sect2 .container{
+
   
   display: flex;
   flex-flow: nowrap row;
@@ -139,6 +140,18 @@ h2{
       height: 100%;
   }
 
+
+  #sect2 img{
+      width: 100%;
+      height: 100%;
+ }
+
+.tex{
+  padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+
 .imag{
   padding-right: 20px;
   padding-bottom: 20px;
@@ -146,6 +159,36 @@ h2{
 
 #sect2 .btn{
   margin-top: 15px;
+
+
+#sect2bis{
+  background-color: white;
+  text-align: right;
+  padding-top: 30px;
+  }
+
+#sect2bis .container{
+  
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+#sect2bis .btn{
+  margin-top: 15px;
+
+}
+#sect2bis img{
+  width: 70%;
+  height: 70%;
+}
+
+
+
+#winnerz .logoz{
+  display: flex;
+  justify-content: space-evenly;
 
 }
 /**section 5
@@ -162,3 +205,9 @@ h2{
   width: 70%;
   padding-left: 10px;
 }
+
+footer a{
+  margin-top: 25px;
+}
+
+
