@@ -157,21 +157,21 @@ padding-top: 30px;
 }
 
 #sect2 .container{
-
 display: flex;
 flex-flow: nowrap row;
 align-items: center;
 justify-content: space-around;
 }
 
+
+  #sect2 img{
+      width: 100%;
+      height: 100%;
+ }
+
 .tex{
   padding-left: 50px;
     padding-bottom: 30px;
-}
-
-#sect2 img{
-    width: 100%;
-    height: 100%;
 }
 
 .imag{
@@ -186,6 +186,31 @@ margin-top: 15px;
 #winnerz .container2 img {
   height: 40px;
 }
+
+#sect2bis{
+  background-color: white;
+  text-align: right;
+  padding-top: 30px;
+  }
+
+#sect2bis .container{
+  
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+#sect2bis .btn{
+  margin-top: 15px;
+
+}
+#sect2bis img{
+  width: 70%;
+  height: 70%;
+}
+
+
 
 #winnerz .logoz{
   display: flex;
@@ -203,3 +228,4 @@ footer .footmail{
 footer a{
   margin-top: 25px;
 }
+
