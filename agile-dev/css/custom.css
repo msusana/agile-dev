@@ -1,63 +1,40 @@
 
-/* The navigation bar */
-#menu {
+#headerz ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
-  
-  /* Change background on mouse-over */
-  #menu a:hover {
-    background: #ddd;
+    background-color: #333;
+}
+
+#headerz li {
+    margin-top: 10px;
+    float: right;
+}
+
+#headerz ul img {
+    width: 5%;
+    margin: 10px 2%;
+}
+
+#headerz li .btn {
+    margin-top: 6px;
+    margin-right: 20px;
+    margin-left: 15px;
+    background-color: white;
     color: black;
-  }
-  
-  /* Main content */
-  #top {
-   padding-top: 5em; /* Add a top margin to avoid content overlay */
-  }
-
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
-
-li {
-  margin-top: 10px;
-  float: right;
-}
-
-ul img {
-  width: 5%;
-  margin: 10px 2%;
-}
-
-li .btn {
-
-  margin-top: 6px;
-  margin-right: 20px;
-  margin-left: 15px;
-  background-color: white;
-  color: black;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+#headerz li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+    background-color: #111;
 }
 
 /* 
@@ -65,141 +42,123 @@ li a:hover {
 */
 
 #top {
-  background-color: lightgray;
+    background-color: lightgray;
 }
 
 #top p {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 #top .header {
- margin-top: 12%;
+   margin-top: 12%;
 }
 
 #top .header img {
-  height: 40px;
+    height: 40px;
 }
 
 #top .header .logodw {
-  margin-right:15px;
+    margin-right:15px;
 
 }
 
 #iphonetop img {
-  height: 100%;
-  width: 100%;
-  margin-top: 10px;
-  padding: 1em;
-}
-/**
-** fléce pour revenir au top
-*/
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    padding: 1em;
+    
+    
 
-.arrow-up {
-    width: 0;
-    height: 0;
-    
-    border-right: 16px solid transparent;
-    border-left: 16px solid transparent;
-    
-    border-bottom: 20px solid #18d331;
 }
 
-#scroll_to_top {
-    position: fixed;
-    width: 25px;
-    height: 25px;
-    bottom: 50px;
-    right: 30px;
-  }
-  #scroll_to_top img {
-    width: 25px;
-    background-color: white;
-  }
 
 
 .features{
-  background-color: lightgray;
+    background-color: lightgray;
 }
 
 .features img{
-  width: 80%;
-  height: 100%;
-  margin:20px;
+    width: 80%;
+    height: 100%;
+    margin:20px;
 }
 
 .features .col1{
-  margin-top: 15%;
+    margin-top: 15%;
 }
 
 .features .col2{ 
-  margin-top: 5%;
-  
+    margin-top: 5%;
+    
 }
 .page-footer{
-  background-color: black;
-}
+    background-color: black;
+    margin: 0;
+  }
 .page-footer svg{
-  fill: white;
-  height: 35px;
-}
-
-
-.imgiso{
-    width: 80%;
-    height: 80%;
-    padding-top: 40px;
+    fill: white;
+    height: 35px;
   }
 
+h2{
+      font-size: 40px;
+  }
+
+.imgiso{
+      width: 80%;
+      height: 80%;
+      padding-top: 40px;
+    }
+
+   .row {
+    margin-bottom: 0;
+  }
+
+
 #sect2{
-background-color: white;
-text-align: left;
-padding-top: 30px;
-}
+  background-color: white;
+  text-align: left;
+  padding-top: 30px;
+  }
 
 #sect2 .container{
+  
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: space-around;
+  }
+  
+  .tex{
+    padding-left: 50px;
+      padding-bottom: 30px;
+  }
 
-display: flex;
-flex-flow: nowrap row;
-align-items: center;
-justify-content: space-around;
-}
-
-.tex{
-  padding-left: 50px;
-    padding-bottom: 30px;
-}
-
-#sect2 img{
-    width: 100%;
-    height: 100%;
-}
+  img{
+      width: 100%;
+      height: 100%;
+  }
 
 .imag{
-padding-right: 20px;
-padding-bottom: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 #sect2 .btn{
-margin-top: 15px;
-}
+  margin-top: 15px;
 
-#winnerz .container2 img {
-  height: 40px;
 }
+/**section 5
+**/
 
-#winnerz .logoz{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#winnerz h3{
+.section5{
+  background-color: lightgray;
+  margin: 0;
+  padding: 20px;
   text-align: center;
 }
 
-footer .footmail{
-  font-size: large;
-}
-
-footer a{
-  margin-top: 25px;
+.section5 img{
+  width: 70%;
+  padding-left: 10px;
 }
